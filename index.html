@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Jquery cdn-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- bootstrap CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <!--Datatables link css and js-->
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.25/css/jquery.dataTables.min.css">
+    <script src="//cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="myscript.js"></script>
+
+    <title>Covid-19 statistics</title>
+</head>
+<body>
+    <section class="header">
+        <h1 class="text-center">Covid Stats</h1>
+    </section>
+
+    <section class="container">
+        <table id="covidtable" class="table table-bordered table-dark">
+
+            <thead class="thead-dark">
+                <tr class="text-center">
+                    <th>Country</th>
+                    <th></th>
+                    <th>New Cases</th>
+                    <th></th>
+                    <th>Total Cases</th>
+                    <th></th>
+                    <th>New Deaths cases</th>
+                    <th></th>
+                    <th> Total Deaths</th>
+                    <th></th>
+                    <th> New Recovered</th>
+                    <th></th>
+                    <th> Total recovered</th>
+                    <th></th>
+                </tr>
+
+            </thead>
+
+            <tbody id="tablebody" class="table-light">
+
+
+            </tbody>
+
+        </table>
+    </section>
+
+    <footer class="text-center">
+        <p >Design and developed By</p>
+        <p >Vipul Mahajan</p>
+    </footer>
+
+    
+</body>
+</html>
